@@ -212,9 +212,9 @@ plt.show()
 |-----|--------------|-----------------------------------------------------------------------------------|--------------|
 | 06  | knn          | [*K*-nearest Neighbor](/Description.md#k-nearest-neighbor-knn)                    | Multi-class  |
 | 05  | svm          | [Support Vector Machine](/Description.md#support-vector-machine-svm)              | Multi-class  |
-| 04  | dt           | [Decision Tree](/Description.md#decision-tree-dt)                                 | Multi-class  |
-| 03  | lda          | [Discriminate Analysis Classifier](/Description.md#discriminate-analysis-da)      | Multi-class  |
-| 02  | nb           | [Naive Bayes](/Description.md#naive-bayes-nb)                                     | Multi-class  |
+| 04  | dt           | Decision Tree                                                                     | Multi-class  |
+| 03  | lda          | Linear Discriminate Analysis                                                      | Multi-class  |
+| 02  | nb           | Naive Bayes                                                                       | Multi-class  |
 | 01  | rf           | [Random Forest](Description.md#random-forest-rf)                                  | Multi-class  |               
 
 
