@@ -149,7 +149,7 @@ plt.show()
 ```
 
 
-### Example 3 : Decision Tree ( DT ) with leave-one-out validation
+### Example 3 : Linear Discriminate Analysis ( LDA ) with leave-one-out validation
 ```code 
 import numpy as np
 from sklearn import datasets
