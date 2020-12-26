@@ -74,7 +74,7 @@ label = np.asarray(data[:, -1])
 # parameters
 k     = 5
 kfold = 10
-opts  = {'k':5, 'kfold':kfold}
+opts  = {'k':k, 'kfold':kfold}
 # KNN with k-fold
 mdl   = jkfold(feat, label, opts) 
 
@@ -118,10 +118,9 @@ feat  = iris.data
 label = iris.target
 
 # parameters
-k      = 5
 ho     = 0.3    # 30% testing set
 kernel = 'rbf'
-opts   = {'k':5, 'ho':ho, 'kernel':kernel}
+opts   = {'ho':ho, 'kernel':kernel}
 # machine learning
 mdl    = jho(feat, label, opts) 
 
