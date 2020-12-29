@@ -107,7 +107,7 @@ plt.show()
 ```code 
 import numpy as np
 from sklearn import datasets
-# chaneg this to switch algorithm & types of validation (jho, jkfold, jloo)
+# change this to switch algorithm & types of validation (jho, jkfold, jloo)
 from ML.svm import jho  
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -152,7 +152,7 @@ plt.show()
 ```code 
 import numpy as np
 from sklearn import datasets
-# chaneg this to switch algorithm & types of validation (jho, jkfold, jloo)
+# change this to switch algorithm & types of validation (jho, jkfold, jloo)
 from ML.lda import jloo  
 import matplotlib.pyplot as plt
 import seaborn as sns
