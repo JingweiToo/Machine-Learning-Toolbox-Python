@@ -7,8 +7,9 @@
 
 ![Wheel](https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/f9d2bb8c-ebfe-4590-b88c-d4ff92fa6f8f/c4229dd2-aaa5-4146-bafa-4fcccb2b1d30/images/screenshot.PNG) 
 
-* This toolbox contains 6 widely used machine learning algorithms   
 
+## Introduction
+* This toolbox contains 6 widely used machine learning algorithms   
 * The < Demo_KNN > and < Demo_LDA > provide the examples of how to use these methods on benchmark dataset 
 
 
