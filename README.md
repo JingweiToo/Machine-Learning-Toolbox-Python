@@ -1,5 +1,8 @@
 # Jx-MLT : A Machine Learning Toolbox for Classification
 
+[![License](https://img.shields.io/badge/license-BSD_3-blue.svg)](https://github.com/JingweiToo/Machine-Learning-Toolbox-Python/blob/main/LICENSE)
+[![GitHub release](https://img.shields.io/badge/release-pre-yellow.svg)](https://github.com/JingweiToo/Machine-Learning-Toolbox-Python)
+
 ---
 > "Toward Talent Scientist: Sharing and Learning Together"
 >  --- [Jingwei Too](https://jingweitoo.wordpress.com/)
@@ -10,11 +13,11 @@
 
 ## Introduction
 * This toolbox contains 6 widely used machine learning algorithms   
-* The < Demo_KNN > and < Demo_LDA > provide the examples of how to use these methods on benchmark dataset 
+* The `Demo_KNN` and `Demo_LDA` provide the examples of how to use these methods on benchmark dataset 
 
 
 ## Usage
-You may switch the algorithm by changing the 'knn' in 'from ML.knn import jkfold' to [other abbreviations](/README.md#list-of-available-machine-learning-methods)   
+You may switch the algorithm by changing the `knn` in `from ML.knn import jkfold` to [other abbreviations](/README.md#list-of-available-machine-learning-methods)   
 * If you wish to use linear discriminate analysis ( LDA ) classifier then you may write
 ```code 
 from ML.lda import jkfold 
@@ -27,17 +30,17 @@ from ML.nb import jkfold
 
 
 ## Input
-* *feat*    : feature vector matrix ( Instance *x* Features )
-* *label*   : label matrix ( Instance *x* 1 )
-* *opts*    : parameter settings
-  + *ho*    : ratio of testing data in hold-out validation
-  + *kfold* : number of folds in *k*-fold cross-validation
+* *`feat`*    : feature vector matrix ( Instance *x* Features )
+* *`label`*   : label matrix ( Instance *x* 1 )
+* *`opts`*    : parameter settings
+  + *`ho`*    : ratio of testing data in hold-out validation
+  + *`kfold`* : number of folds in *k*-fold cross-validation
 
 ## Output
-* *mdl* : Machine learning model ( It contains several results )  
-  + *acc* : classification accuracy 
-  + *con* : confusion matrix
-  + *r*   : precision and recall
+* *`mdl`* : Machine learning model ( It contains several results )  
+  + *`acc`* : classification accuracy 
+  + *`con`* : confusion matrix
+  + *`r`*   : precision and recall
 
 
 ## How to choose the validation scheme?
@@ -193,7 +196,6 @@ plt.show()
 
 
 ## Requirement
-
 * Python 3 
 * Numpy
 * Pandas
@@ -204,18 +206,18 @@ plt.show()
 
 ## List of available machine learning methods
 * Click on the name of algorithm to check the parameters 
-* Use the *opts* to set the specific parameters  
+* Use the *`opts`* to set the specific parameters  
 * If you do not set extra parameters then the algorithm will use default setting in [here](/Description.md)
 
 
 | No. | Abbreviation | Name                                                                              | Support      |
 |-----|--------------|-----------------------------------------------------------------------------------|--------------|
-| 06  | knn          | [*K*-nearest Neighbor](/Description.md#k-nearest-neighbor-knn)                    | Multi-class  |
-| 05  | svm          | [Support Vector Machine](/Description.md#support-vector-machine-svm)              | Multi-class  |
-| 04  | dt           | Decision Tree                                                                     | Multi-class  |
-| 03  | lda          | Linear Discriminate Analysis                                                      | Multi-class  |
-| 02  | nb           | Naive Bayes                                                                       | Multi-class  |
-| 01  | rf           | [Random Forest](Description.md#random-forest-rf)                                  | Multi-class  |               
+| 06  | `knn`        | [*K*-nearest Neighbor](/Description.md#k-nearest-neighbor-knn)                    | Multi-class  |
+| 05  | `svm`        | [Support Vector Machine](/Description.md#support-vector-machine-svm)              | Multi-class  |
+| 04  | `dt`         | Decision Tree                                                                     | Multi-class  |
+| 03  | `lda`        | Linear Discriminate Analysis                                                      | Multi-class  |
+| 02  | `nb`         | Naive Bayes                                                                       | Multi-class  |
+| 01  | `rf`         | [Random Forest](Description.md#random-forest-rf)                                  | Multi-class  |               
 
 
 
